@@ -1,0 +1,12 @@
+.selectCurrency{
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background-color: orange;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    transition: all 1s ease;
+    padding: 0 10px;
+}

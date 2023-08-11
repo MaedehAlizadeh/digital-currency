@@ -1,0 +1,56 @@
+.coinContainer{
+    font-size: 14px;
+    height: 60px;
+}
+
+td{
+    border-bottom: 1px solid #eaeaea;
+    line-height: 1.2;
+    min-height: 60px;
+    text-align: center;
+    width: 100px;
+}
+.marketCapRank{
+    color: #707070;
+}
+.imgAndName{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    
+}
+.imgAndName div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imgAndName img{
+    width: 20px;
+}
+.imgAndName span{
+    text-align: left;
+    margin: 5px;
+}
+.price{
+    color: #0571ec;
+    font-weight: bold;
+}
+
+.marketCap span{
+    display: block;
+}
+
+.redPriceChange,
+.greenPriceChange{
+    display: inline-block;
+    border-radius: 30px;
+    color: #fff;
+    width: 60px;
+    padding: 3px 0px;
+}
+.redPriceChange{
+    background-color: #f00;
+}
+.greenPriceChange{
+    background-color: #0b0;
+}

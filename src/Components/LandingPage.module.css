@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+.title{
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+}
+.title h3{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.question{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.searchInput{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+}
+.searchInput:focus{
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+.coinTable{
+    width: 60%;
+    margin: 50px auto;
+    border: 1px solid #eaeaea;
+    border-collapse: collapse;
+    border-radius: 20px;
+    text-indent: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.coinTable thead{
+    border: 1px solid #eaeaea;
+    height: 40px;  
+}
+th{
+    border-bottom: 1px solid #eaeaea;
+    line-height: 1.2;
+    min-height: 60px;
+    width: 100px;
+}
+.tableNumber{
+    width: 20px;
+}
+.coinName{
+    text-align: left;
+}
+.isLoading{
+    display: table;
+    position: relative;
+}
