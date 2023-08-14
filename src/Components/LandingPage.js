@@ -45,35 +45,34 @@ const LandingPage = () => {
                     <SelectBox selectValue={select} onChange={selectHandler} />
                 </div>
             </div>
-             
-            <table className={styles.coinTable}>
-                <thead>
-                    <tr>
-                        <th className={styles.tableNumber}>#</th>
-                        <th className={styles.coinName}>Digital Currency</th>
-                        <th>Price</th>
-                        <th>Mkt Cap</th>
-                        <th>24h</th>
-                    </tr>
-                </thead>
-                <tbody className={!coins.length && styles.isLoading}>
-                    {coins.length ?
-                        searchedCoins.map(coin => <Coin key={coin.id} 
-                                                    name={coin.name} 
-                                                    image={coin.image} 
-                                                    currentPrice={coin.current_price}
-                                                    marketCap={coin.market_cap} 
-                                                    marketCapRank={coin.market_cap_rank} 
-                                                    priceChange={coin.price_change_percentage_24h}
-                                                    vsCurrency={select}
-                                                />) :
-                        
-                        <Loading />
-                        
-                        
-                    }
-                </tbody> 
-            </table>
+            {coins.length ?
+                <table className={styles.coinTable}>
+                    <thead>
+                        <tr>
+                            <th className={styles.tableNumber}>#</th>
+                            <th className={styles.coinName}>Digital Currency</th>
+                            <th>Price</th>
+                            <th>Mkt Cap</th>
+                            <th>24h</th>
+                        </tr>
+                    </thead>
+                    <tbody className={!coins.length && styles.isLoading}>
+                        {searchedCoins.map(coin => <Coin key={coin.id} 
+                                                        name={coin.name} 
+                                                        image={coin.image} 
+                                                        currentPrice={coin.current_price}
+                                                        marketCap={coin.market_cap} 
+                                                        marketCapRank={coin.market_cap_rank} 
+                                                        priceChange={coin.price_change_percentage_24h}
+                                                        vsCurrency={select}
+                                                    />) 
+                            
+                            
+                        }
+                    </tbody>
+                </table> :        
+                <Loading />
+            }
         </div>
     );
 };
