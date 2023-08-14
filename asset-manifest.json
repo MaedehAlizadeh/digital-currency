@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/digital-currency/static/css/main.372088b1.css",
-    "main.js": "/digital-currency/static/js/main.aafbe312.js",
+    "main.css": "/digital-currency/static/css/main.1117f50b.css",
+    "main.js": "/digital-currency/static/js/main.4980554f.js",
     "index.html": "/digital-currency/index.html",
-    "main.372088b1.css.map": "/digital-currency/static/css/main.372088b1.css.map",
-    "main.aafbe312.js.map": "/digital-currency/static/js/main.aafbe312.js.map"
+    "main.1117f50b.css.map": "/digital-currency/static/css/main.1117f50b.css.map",
+    "main.4980554f.js.map": "/digital-currency/static/js/main.4980554f.js.map"
   },
   "entrypoints": [
-    "static/css/main.372088b1.css",
-    "static/js/main.aafbe312.js"
+    "static/css/main.1117f50b.css",
+    "static/js/main.4980554f.js"
   ]
 }
